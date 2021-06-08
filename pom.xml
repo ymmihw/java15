@@ -17,6 +17,10 @@
 
     <dependencies>
         <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
@@ -60,5 +64,6 @@
     </build>
     <modules>
         <module>java15-text-block</module>
+        <module>java15-helpful-npe</module>
     </modules>
 </project>
